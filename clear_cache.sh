@@ -1,5 +1,5 @@
 #!bin/bash
-
+# clear memory
 LIMIT_MEM=10000000
 while true
 do  
