@@ -15,7 +15,7 @@ OLD_PORT=$(cat /etc/shadowsocks/config.json | grep 'server_port'  |cut -d ':' -f
 
 echo 'old port'${OLD_PORT}
 echo 'new port'${PORT}
-sed -i 's|${OLD_PORT}|${PORT}|' /etc/shadowsocks/config.json
+sed -i "s|$OLD_PORT|$PORT|" /etc/shadowsocks/config.json
 
 ssserver -c /etc/shadowsocks/config.json -d stop
 ssserver -c /etc/shadowsocks/config.json -d start
