@@ -1,6 +1,6 @@
 #!bin/bash
 #change shadowsocks port
-
+# XIXI
 
 
 firewall-cmd --list-all
