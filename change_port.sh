@@ -1,6 +1,6 @@
 #!bin/bash
 #change shadowsocks port
-
+#test
 
 
 firewall-cmd --list-all
