@@ -2,6 +2,8 @@
 #change shadowsocks port
 #test
 #new test
+#new new test
+
 
 firewall-cmd --list-all
 echo 'type your port which is not the above(example: 6666):'
